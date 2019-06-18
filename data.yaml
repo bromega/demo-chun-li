@@ -1,0 +1,50 @@
+Fighters:
+  Fighter:
+    Zangief:
+      HomeCountry:
+        Country: USSR
+        Flag: 'Hammer and Sickle'
+      DefaultColor: Red
+      SweetMove: '360 Piledriver'
+    'Chun Li':
+      HomeCountry:
+        Country: China
+        Flag: 'Five Stars'
+      DefaultColor: Blue
+      SweetMove: 'Helicopter Kick'
+    Guile:
+      HomeCountry:
+        Country: USA
+        Flag: 'Stars and Stripes'
+      DefaultColor: Green
+      SweetMove: 'Sonic Boom!'
+    Ken:
+      HomeCountry:
+        Country: USA
+        Flag: 'Stars and Stripes'
+      DefaultColor: Red
+      SweetMove: Shoryuken!
+    Ryu:
+      HomeCountry:
+        Country: Japan
+        Flag: Sun
+      DefaultColor: White
+      SweetMove: Haduken!
+    'E Honda':
+      HomeCountry:
+        Country: Japan
+        Flag: Sun
+      DefaultColor: Blue
+      SweetMove: 'Sumo Missile'
+    Blanka:
+      HomeCountry:
+        Country: Brazil
+        Flag: Earth
+      DefaultColor: Orange
+      SweetMove: Electricity
+    Dhalsim:
+      HomeCountry:
+        Country: India
+        Flag: Shield
+      DefaultColor: Yellow
+      SweetMove: 'Yoga Fire!'
