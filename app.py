@@ -1,5 +1,6 @@
 # non-native libraries
 import yaml
+import inflection
 
 # native libraries
 import sys
@@ -34,14 +35,14 @@ if __name__ == '__main__':
 
     # loop through the dict items and print them
     for k, v in fighters[fighter].items():
-        #v = get_first(v)
+        v = get_first(v)
         print(k, v)
 
         # pluralize the item
-        #print(f"{inflection.pluralize(k)} {inflection.pluralize(v)}")
+        print(f"{inflection.pluralize(k)} {inflection.pluralize(v)}")
 
         # tableize the item, for example if you're working with databases
-        #print(f"{inflection.tableize(k)} {inflection.tableize(v)}")
+        print(f"{inflection.tableize(k)} {inflection.tableize(v)}")
 
         # titleize the item
-        #print(f"{inflection.titleize(k)} {inflection.titleize(v)}")
+        print(f"{inflection.titleize(k)} {inflection.titleize(v)}")
