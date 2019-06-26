@@ -1,6 +1,5 @@
 # non-native libraries
 import yaml
-import inflection
 
 # native libraries
 import sys
